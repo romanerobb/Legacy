@@ -39,7 +39,7 @@ P {
 }
 
 #title {
-    background-image: url("heroheader.jpg");
+    background-image: url(../images/heroheader.jpg);
 }
 
 .container-fluid {
