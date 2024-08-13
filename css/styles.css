@@ -40,6 +40,8 @@ P {
 
 #title {
     background-image: url(../images/heroheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .container-fluid {
