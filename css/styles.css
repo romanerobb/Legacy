@@ -25,8 +25,8 @@ h2 {
     font-family: "Montserrat";
     font-weight: 900;
     font-size: 2rem;
-    line-height: 1.5;
-    color: rgb(255, 255, 255);
+    line-height: .5;
+    color: rgb(0, 0, 0);
 }
 
 h3 {
@@ -42,6 +42,8 @@ P {
     background-image: url(../images/heroheader.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .container-fluid {
@@ -49,7 +51,8 @@ P {
 }
 
 .navbar {
-    padding-bottom: 4.5rem;
+    padding-bottom: 1.5rem;
+        float: none;
 }
 
 .nav-item {
@@ -61,14 +64,14 @@ P {
     font-family: "Monsterrat";
     font-size: 1.5rem;
     font-weight: 1600;
-    color: #fff;
+    color: #000000;
 }
 
 .navbar-brand {
     font-family: "Montserrat";
     font-size: 2.5rem;
     font-weight: 900;
-    color: #fff;
+    color: #000000;
 }
 
 .download-button {
@@ -99,8 +102,10 @@ P {
 
 #testimonials {
     text-align: center;
-    background-color: #000;
-    color: #fff;
+    background-image: url(../images/heroheader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000;
 }
 
 .testimonial-image {
