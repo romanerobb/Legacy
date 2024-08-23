@@ -214,8 +214,8 @@ body {
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .imagecolumn {
-    float: left;
-    width: 25%;
+    float: center;
+    width: 30%;
     padding: 5px;
     clip-path: circle();
   }
